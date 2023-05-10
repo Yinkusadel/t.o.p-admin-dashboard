@@ -103,6 +103,7 @@
     align-items: center;
     justify-content: space-around;
     width: 25%;
+    font-weight: bold;
   }
 
   .notification {
@@ -127,7 +128,7 @@
     display: flex;
     align-items: center;
     background-color: #ffffff;
-    width: 30%;
+    width: 40%;
   }
 
   .name-text {
@@ -147,4 +148,43 @@
     font-size: small;
     background-color: #0c8aff;
     color: #f1e8e8;
+  }
+
+  /*           center head styled completely           */
+
+  .center-body {
+    height: 77vh;
+    background-color: #9b4279;
+    width: 100%;
+    padding: 10px 10px ;
+  }
+
+  .your-projects {
+    background-color: #666656;
+    width: 75%;
+    height: 70vh;
+  }
+
+  .project-card {
+    width: 40%;
+    padding: 10px;
+    height: 22vh;
+    background-color: #f7f8f4;
+    border: 1px solid #f5f2f2 ;
+    border-radius: 5px;
+    border-left-color: #e6e368;
+    border-left-width: 7px;
+  }
+
+  .project-text {
+    width: 80%;
+    background-color: #666656;
+    height: 10vh;
+    font-size: 10px;
+  }
+
+  .project-icon {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 20px;
   }
