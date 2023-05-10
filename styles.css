@@ -68,13 +68,43 @@
 }
 
 .center-head {
-    margin: 10px 20px;
-    background-color: green;
+    background-color: #faf7f7;
     height: 20vh;
 }
 
 .head-up {
+    margin: 10px 20px;
     display: flex;
-    background-color: rgb(182, 125, 125);
+    justify-content: space-between;
+    align-items: center;
     height: 7vh;
 }
+
+.search {
+    height: 10px;
+}
+
+.head-up input[type=text] {
+    padding: 0 15px;
+    border: none;
+    border-radius: 25px;
+    background: #f1e8e8;
+    width: 300px;
+  }
+
+  .head-up button {
+    background: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  .head-upright {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 25%;
+  }
+
+  .notification {
+    height: 15px;
+  }
