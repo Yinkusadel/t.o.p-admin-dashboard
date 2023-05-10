@@ -60,7 +60,21 @@
 /*  style of left stops here */
 
 .center {
+    display: flex;
+    flex-direction: column;
     width: 85%;
     background-color: rgb(132, 150, 167);
     height: 100vh;
+}
+
+.center-head {
+    margin: 10px 20px;
+    background-color: green;
+    height: 20vh;
+}
+
+.head-up {
+    display: flex;
+    background-color: rgb(182, 125, 125);
+    height: 7vh;
 }
