@@ -15,7 +15,7 @@
     flex-direction: column;
     width: 15%;
     height: 100vh;
-    background-color: rgb(12, 138, 255);
+    background-color: #0c8aff;
     font-weight: bold;
 }
 
@@ -69,7 +69,7 @@
 
 .center-head {
     background-color: #faf7f7;
-    height: 20vh;
+    height: 23vh;
 }
 
 .head-up {
@@ -89,7 +89,7 @@
     border: none;
     border-radius: 25px;
     background: #f1e8e8;
-    width: 300px;
+    width: 450px;
   }
 
   .head-up button {
@@ -107,4 +107,44 @@
 
   .notification {
     height: 15px;
+  }
+
+  /*                 head-up style stops here                     */
+
+  .head-bottom {
+    margin: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+  }
+
+  .alien {
+    height: 40px;
+  }
+
+  .head-bottomleft {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    width: 30%;
+  }
+
+  .name-text {
+    font-weight: bold;
+    padding: 5px;
+  }
+
+  .hi {
+    font-size: 10px;
+  }
+
+  .header-nav a {
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 5px 15px;
+    margin: 5px;
+    font-size: small;
+    background-color: #0c8aff;
+    color: #f1e8e8;
   }
