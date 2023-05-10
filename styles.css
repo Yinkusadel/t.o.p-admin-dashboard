@@ -165,26 +165,35 @@
     height: 70vh;
   }
 
+  .project-content {
+    margin-top: 5px;
+  }
+
   .project-card {
     width: 40%;
     padding: 10px;
-    height: 22vh;
+    height: 15vh;
     background-color: #f7f8f4;
     border: 1px solid #f5f2f2 ;
     border-radius: 5px;
     border-left-color: #e6e368;
     border-left-width: 7px;
+    margin-bottom: 8px;
   }
 
   .project-text {
-    width: 80%;
-    background-color: #666656;
-    height: 10vh;
-    font-size: 10px;
+    height: 5vh;
+    font-size: 7px;
   }
 
   .project-icon {
     display: flex;
     justify-content: flex-end;
-    padding-top: 20px;
+    height: 8vh;
+  }
+
+  .project-icon img {
+    padding-left: 10px;
+    padding-top: 10px;
+    height: 15px;
   }
