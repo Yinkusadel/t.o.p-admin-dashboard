@@ -159,16 +159,27 @@
     padding: 10px 10px ;
   }
 
+  .content-header {
+    font-size: small;
+    font-weight: bold;
+  }
+
   .your-projects {
+    display: flex;
     background-color: #666656;
-    width: 70%;
     height: 70vh;
+  }
+
+  .new-div {
+    width: 70%;
+    background-color: #e6e368;
   }
 
   .project-content {
     display: flex;
     justify-content: space-between;
     margin-top: 5px;
+    background-color: green;
   }
 
   .project-card {
@@ -200,5 +211,72 @@
     height: 15px;
   }
 
-  .project-content-right {
+  .announcement {
+    width:30%;
+    background-color: #0c8aff;
+    height: 70vh;
+  }
+
+  .announcement-content {
+    margin-left: 15px;
+  }
+
+  .announcement-card {
+    width: 60%;
+    background-color: #da8d8d;
+    border-radius: 5px;
+    height: 30vh;
+    padding: 10px;
+    margin-top: 5px;
+  }
+
+  .card1 {
+    font-size: 5px;
+    padding-top: 10px;
+    padding: 5px;
+    border-bottom: 1px solid #8d7c7c;
+  }
+
+  .card2 {
+    font-size: 5px;
+    padding-top: 10px;
+    padding: 5px;
+  }
+
+  .card2 {
+    font-size: 5px;
+    padding-top: 10px;
+    padding: 5px;
+  }
+
+  .Trending-header {
+    font-size: small;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .trending-card {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    background-color: green;
+    height: 24vh;
+    border-radius: 5px;
+  }
+
+  .trending-child {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    font-size: 10px;
+    width: 100%;
+    padding: 4px;
+  }
+
+  .fast-text {
+    padding-left: 10px;
+  }
+
+  .fast-head {
+    font-weight: bold;
   }
