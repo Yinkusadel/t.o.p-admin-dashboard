@@ -161,16 +161,18 @@
 
   .your-projects {
     background-color: #666656;
-    width: 75%;
+    width: 70%;
     height: 70vh;
   }
 
   .project-content {
+    display: flex;
+    justify-content: space-between;
     margin-top: 5px;
   }
 
   .project-card {
-    width: 40%;
+    width: 230px;
     padding: 10px;
     height: 15vh;
     background-color: #f7f8f4;
@@ -196,4 +198,7 @@
     padding-left: 10px;
     padding-top: 10px;
     height: 15px;
+  }
+
+  .project-content-right {
   }
