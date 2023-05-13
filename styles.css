@@ -232,25 +232,23 @@
   background-color: #f7f8f4;
   border-radius: 5px;
   height: 30vh;
-  padding: 10px;
+  padding: 20px;
   margin-top: 5px;
 }
 
 .card1 {
-  font-size: 5px;
+  font-size: 9px;
   padding: 5px;
   border-bottom: 1px solid #8d7c7c;
 }
 
 .card2 {
-  font-size: 5px;
+  font-size: 9px;
   padding: 5px;
   padding-top: 5px;
 }
 
 .trending-header {
-  font-size: small;
-  font-weight: bold;
   margin-top: 10px;
 }
 
@@ -274,6 +272,7 @@
 
 .fast-text {
   padding-left: 10px;
+  font-size: 12px;
 }
 
 .fast-head {
