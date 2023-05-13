@@ -172,11 +172,6 @@
   padding: 10px;
 }
 
-.content-header {
-  font-size: small;
-  font-weight: bold;
-}
-
 .your-projects {
   display: flex;
   height: 70vh;
@@ -190,10 +185,11 @@
   display: flex;
   justify-content: space-between;
   margin-top: 5px;
+  width: 100%;
 }
 
 .project-card {
-  width: 230px;
+  width: 350px;
   padding: 10px;
   height: 15vh;
   background-color: #f7f8f4;
@@ -205,20 +201,21 @@
 }
 
 .project-text {
-  height: 5vh;
-  font-size: 7px;
+  font-size: 12px;
+  height: 7vh;
 }
 
 .project-icon {
   display: flex;
   justify-content: flex-end;
-  height: 8vh;
+  align-items: flex-end;
+  height: 5vh;
 }
 
 .project-icon img {
   padding-left: 10px;
   padding-top: 10px;
-  height: 15px;
+  height: 20px;
 }
 
 .announcement {
