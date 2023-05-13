@@ -20,7 +20,7 @@
 }
 
 .dashboard {
-  padding: 10px;
+  padding: 20px;
   padding-bottom: 20px;
 }
 
@@ -36,11 +36,11 @@
 }
 
 .first-icons img {
-  height: 10px;
-  padding: 5px;
+  height: 20px;
+  padding: 10px;
 }
 
-.first-icons div {
+.first-icons nav {
   font-size: 10px;
 }
 
@@ -49,11 +49,11 @@
 }
 
 .second-icons img {
-  height: 10px;
-  padding: 5px;
+  height: 20px;
+  padding: 10px;
 }
 
-.second-icons div {
+.second-icons nav {
   font-size: 10px;
 }
 
