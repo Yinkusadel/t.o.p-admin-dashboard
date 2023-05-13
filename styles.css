@@ -80,8 +80,15 @@
   height: 7vh;
 }
 
-.search {
-  height: 10px;
+.form {
+  display: flex;
+}
+
+.head-upleft {
+  width: 80%;
+  height: 50px;
+  display: flex;
+  align-items: center;
 }
 
 .head-up input[type="text"] {
@@ -89,7 +96,8 @@
   border: none;
   border-radius: 25px;
   background: #f1e8e8;
-  width: 450px;
+  width: 740px;
+  height: 30px;
 }
 
 .head-up button {
@@ -101,13 +109,13 @@
 .head-upright {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  width: 25%;
+  justify-content: space-evenly;
+  width: 20%;
   font-weight: bold;
 }
 
 .notification {
-  height: 15px;
+  height: 25px;
 }
 
 /*                 head-up style stops here                     */
@@ -121,7 +129,7 @@
 }
 
 .alien {
-  height: 40px;
+  height: 50px;
 }
 
 .head-bottomleft {
@@ -134,16 +142,17 @@
 .name-text {
   font-weight: bold;
   padding: 5px;
+  font-size: 25px;
 }
 
 .hi {
-  font-size: 10px;
+  font-size: 15px;
 }
 
 .header-nav a {
   text-decoration: none;
   border-radius: 10px;
-  padding: 5px 15px;
+  padding: 10px 25px;
   margin: 5px;
   font-size: small;
   background-color: #0c8aff;
