@@ -30,6 +30,10 @@
   color: white;
 }
 
+.text {
+  padding-left: 10px;
+}
+
 .first-icons {
   padding: 10px;
   padding-bottom: 20px;
@@ -63,13 +67,15 @@
   display: flex;
   flex-direction: column;
   width: 85%;
-  background-color: rgb(132 150 167);
+  background-color: #d7dde4;
   height: 100vh;
 }
 
 .center-head {
   background-color: #faf7f7;
-  height: 23vh;
+  height: 23%;
+  width: 100%;
+  box-shadow: 5px 5px #b8b5b588;
 }
 
 .head-up {
@@ -78,10 +84,12 @@
   justify-content: space-between;
   align-items: center;
   height: 7vh;
+  width: 100%;
 }
 
 .form {
   display: flex;
+  width: 100%;
 }
 
 .head-upleft {
@@ -96,8 +104,8 @@
   border: none;
   border-radius: 25px;
   background: #f1e8e8;
-  width: 740px;
   height: 30px;
+  width: 80%;
 }
 
 .head-up button {
@@ -167,14 +175,15 @@
 /*           center head styled completely           */
 
 .center-body {
-  height: 77vh;
+  height: 100%;
   width: 100%;
-  padding: 10px;
+  padding: 20px;
 }
 
 .your-projects {
   display: flex;
-  height: 70vh;
+  height: 100%;
+  width: 100%;
 }
 
 .new-div {
@@ -185,67 +194,95 @@
   display: flex;
   justify-content: space-between;
   margin-top: 5px;
-  width: 100%;
+  width: 95%;
+  height: 88%;
 }
 
 .project-card {
-  width: 350px;
-  padding: 10px;
-  height: 15vh;
+  width: 100%;
   background-color: #f7f8f4;
   border: 1px solid #f5f2f2;
   border-radius: 5px;
   border-left-color: #e6e368;
   border-left-width: 7px;
-  margin-bottom: 8px;
+  margin-bottom: 13px;
+  height: 28%;
+  box-shadow: 5px 5px #b8b5b588;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.project-content-left {
+  width: 45%;
+  height: 100%;
+}
+
+.project-content-right {
+  width: 45%;
 }
 
 .project-text {
   font-size: 12px;
-  height: 7vh;
+  height: 40%;
 }
 
 .project-icon {
   display: flex;
   justify-content: flex-end;
-  align-items: flex-end;
-  height: 5vh;
+  align-items: center;
+  height: 40%;
 }
 
 .project-icon img {
   padding-left: 10px;
-  padding-top: 10px;
+  margin-right: 10px;
   height: 20px;
 }
 
 .announcement {
   width: 30%;
-  height: 70vh;
+  height: 100%;
 }
 
 .announcement-content {
-  margin-left: 15px;
+  width: 100%;
+  height: 90%;
 }
 
 .announcement-card {
-  width: 60%;
+  width: 70%;
   background-color: #f7f8f4;
   border-radius: 5px;
-  height: 30vh;
+  height: 40%;
   padding: 20px;
   margin-top: 5px;
+  box-shadow: 5px 5px #b8b5b588;
 }
 
 .card1 {
-  font-size: 9px;
+  width: 100%;
   padding: 5px;
   border-bottom: 1px solid #8d7c7c;
 }
 
 .card2 {
-  font-size: 9px;
+  width: 100%;
   padding: 5px;
   padding-top: 5px;
+}
+
+.announcement-text {
+  font-size: 9px;
+}
+
+.trending {
+  width: 100%;
+  height: 45%;
+}
+
+.trending-content {
+  width: 100%;
+  height: 90%;
 }
 
 .trending-header {
@@ -255,23 +292,21 @@
 .trending-card {
   display: flex;
   flex-direction: column;
-  width: 70%;
+  width: 80%;
   background-color: #f7f8f4;
-  height: 24vh;
+  height: 100%;
   border-radius: 5px;
+  box-shadow: 5px 5px #b8b5b588;
 }
 
 .trending-child {
   display: flex;
   align-items: center;
-  height: 50px;
-  font-size: 10px;
-  width: 100%;
-  padding: 4px;
+  padding: 5px;
 }
 
 .fast-text {
-  padding-left: 10px;
+  padding-left: 20px;
   font-size: 12px;
 }
 
