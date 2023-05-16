@@ -1,0 +1,315 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  font-family: Roboto, sans-serif;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  height: 100vh;
+  background-color: #0c8aff;
+  font-weight: bold;
+}
+
+.dashboard {
+  padding: 20px;
+  padding-bottom: 20px;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.text {
+  padding-left: 10px;
+}
+
+.first-icons {
+  padding: 10px;
+  padding-bottom: 20px;
+}
+
+.first-icons img {
+  height: 20px;
+  padding: 10px;
+}
+
+.first-icons nav {
+  font-size: 10px;
+}
+
+.second-icons {
+  padding: 10px;
+}
+
+.second-icons img {
+  height: 20px;
+  padding: 10px;
+}
+
+.second-icons nav {
+  font-size: 10px;
+}
+
+/*  style of left stops here */
+
+.center {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  background-color: #d7dde4;
+  height: 100vh;
+}
+
+.center-head {
+  background-color: #faf7f7;
+  height: 23%;
+  width: 100%;
+  box-shadow: 5px 5px #b8b5b588;
+}
+
+.head-up {
+  margin: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 7vh;
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  width: 100%;
+}
+
+.head-upleft {
+  width: 80%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.head-up input[type="text"] {
+  padding: 0 15px;
+  border: none;
+  border-radius: 25px;
+  background: #f1e8e8;
+  height: 30px;
+  width: 80%;
+}
+
+.head-up button {
+  background: white;
+  border: none;
+  cursor: pointer;
+}
+
+.head-upright {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 20%;
+  font-weight: bold;
+}
+
+.notification {
+  height: 25px;
+}
+
+/*                 head-up style stops here                     */
+
+.head-bottom {
+  margin: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+}
+
+.alien {
+  height: 50px;
+}
+
+.head-bottomleft {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  width: 40%;
+}
+
+.name-text {
+  font-weight: bold;
+  padding: 5px;
+  font-size: 25px;
+}
+
+.hi {
+  font-size: 15px;
+}
+
+.header-nav a {
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 10px 25px;
+  margin: 5px;
+  font-size: small;
+  background-color: #0c8aff;
+  color: #f1e8e8;
+}
+
+.header-nav a:hover {
+  background-color: #93a093;
+  color: #000;
+}
+
+/*           center head styled completely           */
+
+.center-body {
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+}
+
+.your-projects {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.new-div {
+  width: 70%;
+}
+
+.project-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  width: 95%;
+  height: 88%;
+}
+
+.project-card {
+  width: 100%;
+  background-color: #f7f8f4;
+  border: 1px solid #f5f2f2;
+  border-radius: 5px;
+  border-left-color: #e6e368;
+  border-left-width: 7px;
+  margin-bottom: 13px;
+  height: 28%;
+  box-shadow: 5px 5px #b8b5b588;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.project-content-left {
+  width: 45%;
+  height: 100%;
+}
+
+.project-content-right {
+  width: 45%;
+}
+
+.project-text {
+  font-size: 12px;
+  height: 40%;
+}
+
+.project-icon {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 40%;
+}
+
+.project-icon img {
+  padding-left: 10px;
+  margin-right: 10px;
+  height: 20px;
+}
+
+.announcement {
+  width: 30%;
+  height: 100%;
+}
+
+.announcement-content {
+  width: 100%;
+  height: 90%;
+}
+
+.announcement-card {
+  width: 70%;
+  background-color: #f7f8f4;
+  border-radius: 5px;
+  height: 40%;
+  padding: 20px;
+  margin-top: 5px;
+  box-shadow: 5px 5px #b8b5b588;
+}
+
+.card1 {
+  width: 100%;
+  padding: 5px;
+  border-bottom: 1px solid #8d7c7c;
+}
+
+.card2 {
+  width: 100%;
+  padding: 5px;
+  padding-top: 5px;
+}
+
+.announcement-text {
+  font-size: 9px;
+}
+
+.trending {
+  width: 100%;
+  height: 45%;
+}
+
+.trending-content {
+  width: 100%;
+  height: 90%;
+}
+
+.trending-header {
+  margin-top: 10px;
+}
+
+.trending-card {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  background-color: #f7f8f4;
+  height: 100%;
+  border-radius: 5px;
+  box-shadow: 5px 5px #b8b5b588;
+}
+
+.trending-child {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.fast-text {
+  padding-left: 20px;
+  font-size: 12px;
+}
+
+.fast-head {
+  font-weight: bold;
+}

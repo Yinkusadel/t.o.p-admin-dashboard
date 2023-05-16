@@ -3,10 +3,264 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="index.css" />
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>Hello!</h1>
+    <div class="container">
+      <nav class="left">
+        <h3 class="icon dashboard">
+          <img src="icons/dashboard.png" alt="dashboard" />
+          <div class="text">Dashboard</div>
+        </h3>
+        <nav class="first-icons">
+          <ul>
+            <li class="icon">
+              <img src="icons/home.png" alt="home" />
+              <div class="text">Home</div>
+            </li>
+
+            <li class="icon">
+              <img src="icons/profile.png" alt="profile" />
+              <div class="text">Profile</div>
+            </li>
+
+            <li class="icon">
+              <img src="icons/message.png" alt="messages" />
+              <div class="text">Messages</div>
+            </li>
+
+            <li class="icon">
+              <img src="icons/history.png" alt="history" />
+              <div class="text">History</div>
+            </li>
+
+            <li class="icon">
+              <img src="icons/task.png" alt="tasks" />
+              <div class="text">Tasks</div>
+            </li>
+
+            <li class="icon">
+              <img src="icons/community.png" alt="community" />
+              <div class="text">Community</div>
+            </li>
+          </ul>
+        </nav>
+
+        <nav class="second-icons">
+          <ul>
+            <li class="icon">
+              <img src="icons/setting.png" alt="settings" />
+              <div class="text">Settings</div>
+            </li>
+
+            <li class="icon">
+              <img src="icons/support.png" alt="support" />
+              <div class="text">Support</div>
+            </li>
+
+            <li class="icon">
+              <img src="icons/privacy.png" alt="privacy" />
+              <div class="text">Privacy</div>
+            </li>
+          </ul>
+        </nav>
+      </nav>
+
+      <section class="center">
+        <div class="center-head">
+          <div class="head-up">
+            <div class="head-upleft">
+              <form action="/action_page.php" class="form">
+                <button type="submit">
+                  <img src="icons/search.png" alt="search" class="search" />
+                </button>
+                <input type="text" placeholder="..." name="search" />
+              </form>
+            </div>
+
+            <div class="head-upright">
+              <img src="icons/notification.png" alt="privacy" class="notification" />
+              <img src="icons/alien.png" alt="privacy" class="alien" />
+              Yinkusadel
+            </div>
+          </div>
+          <div class="head-bottom">
+            <div class="head-bottomleft">
+              <img src="icons/alien.png" alt="privacy" class="alien" />
+              <div class="name-text">
+                <p class="hi">Hi there,</p>
+                <p>Yinkusadel (@sadella)</p>
+              </div>
+            </div>
+            <nav class="header-nav">
+              <a href="/new/" target="_blank">New</a>
+              <a href="/upload/" target="_blank">Upload</a>
+              <a href="/start/" target="_blank">Start</a>
+            </nav>
+          </div>
+        </div>
+
+        <div class="center-body">
+          <div class="your-projects">
+            <div class="new-div">
+              <h3>Your projects</h3>
+              <div class="project-content">
+                <div class="project-content-left">
+                  <article class="project-card">
+                    <h4>Super Cool project</h4>
+                    <p class="project-text">
+                      Sed tempus ut lacus ut scelerisque.Suspendisse sollicitudin nibh erat, id
+                      facilisis felis accumsan nec.
+                    </p>
+                    <div class="project-icon">
+                      <img src="icons/star.png" alt="star" />
+                      <img src="icons/eye.png" alt="privacy" />
+                      <img src="icons/source.png" alt="privacy" />
+                    </div>
+                  </article>
+
+                  <article class="project-card">
+                    <h4>Impossible app</h4>
+                    <p class="project-text">
+                      In hac habitasse platea dictumst. Vivamus dictum rutrum arcu, a placerat velit
+                      sagittis id.
+                    </p>
+                    <div class="project-icon">
+                      <img src="icons/star.png" alt="star" />
+                      <img src="icons/eye.png" alt="privacy" />
+                      <img src="icons/source.png" alt="privacy" />
+                    </div>
+                  </article>
+
+                  <article class="project-card">
+                    <h4>Ad Blocker</h4>
+                    <p class="project-text">
+                      Quisque eget netrum nisl. Nam augue justo, cursus vitae metus vel, pharetra
+                      hendrerit felis. Aliquam sed malesuada eros.
+                    </p>
+                    <div class="project-icon">
+                      <img src="icons/star.png" alt="star" />
+                      <img src="icons/eye.png" alt="privacy" />
+                      <img src="icons/source.png" alt="privacy" />
+                    </div>
+                  </article>
+                </div>
+
+                <div class="project-content-right">
+                  <article class="project-card">
+                    <h4>Less Cool Project</h4>
+                    <p class="project-text">
+                      Nullam condimentum ipsum ut lectus vehicula consectetur. Quisque sed dolor
+                      tincidunt, consectetur sapien et, facilisis dolor. Duis sem purus, dignissim
+                      ut sapien in, varius pellentesque lacus.
+                    </p>
+                    <div class="project-icon">
+                      <img src="icons/star.png" alt="star" />
+                      <img src="icons/eye.png" alt="privacy" />
+                      <img src="icons/source.png" alt="privacy" />
+                    </div>
+                  </article>
+
+                  <article class="project-card">
+                    <h4>Easy Peasy App</h4>
+                    <p class="project-text">
+                      Etiam cursus eros ac efficitur fringilla. Vestibulum dignissim urna eget
+                      accumsan aliquam. Curabitur dignissim nisi in tortor commodo, ac bibendum
+                      magna tincidunt.
+                    </p>
+                    <div class="project-icon">
+                      <img src="icons/star.png" alt="star" />
+                      <img src="icons/eye.png" alt="privacy" />
+                      <img src="icons/source.png" alt="privacy" />
+                    </div>
+                  </article>
+
+                  <article class="project-card">
+                    <h4>Money Maker</h4>
+                    <p class="project-text">
+                      Praesent convallis, libero quis congue elementum, nunc ante faucibus sapien,
+                      ac scelerisque tortor purus sit amet ex. Pellentesque mollis nec sem vel
+                      aliquam.
+                    </p>
+                    <div class="project-icon">
+                      <img src="icons/star.png" alt="star" />
+                      <img src="icons/eye.png" alt="privacy" />
+                      <img src="icons/source.png" alt="privacy" />
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+            <div class="announcement">
+              <h3>Announcement</h3>
+              <div class="announcement-content">
+                <div class="announcement-card">
+                  <aside class="card1">
+                    <h4>Do halal stuff</h4>
+                    <p class="announcement-text">
+                      Etiam cursus eros ac efficitur fringilla. Vestibulum dignissim urna eget
+                      accumsan aliquam. Curabitur dignissim nisi in tortor commodo, ac bibendum
+                      magna tincidunt.
+                    </p>
+                  </aside>
+                  <aside class="card1">
+                    <h4>Dash money</h4>
+                    <p class="announcement-text">
+                      Etiam cursus eros ac efficitur fringilla. Vestibulum dignissim urna eget
+                      accumsan aliquam. Curabitur dignissim nisi in tortor commodo, ac bibendum
+                      magna tincidunt.
+                    </p>
+                  </aside>
+                  <aside class="card2">
+                    <h4>Earn rewards</h4>
+                    <p class="announcement-text">
+                      Etiam cursus eros ac efficitur fringilla. Vestibulum dignissim urna eget
+                      accumsan aliquam. Curabitur dignissim nisi in tortor commodo, ac bibendum
+                      magna tincidunt.
+                    </p>
+                  </aside>
+                </div>
+                <div class="trending">
+                  <h3 class="trending-header">Trending</h3>
+                  <div class="trending-content">
+                    <div class="trending-card">
+                      <div class="trending-child">
+                        <img src="icons/bicycle.png" alt="privacy" class="fast" />
+                        <div class="fast-text">
+                          <p class="fast-head">Hi there,</p>
+                          <p>Yinkusadel (@sadella)</p>
+                        </div>
+                      </div>
+                      <div class="trending-child">
+                        <img src="icons/fast.png" alt="privacy" class="fast" />
+                        <div class="fast-text">
+                          <p class="fast-head">Hi there,</p>
+                          <p>Yinkusadel (@sadella)</p>
+                        </div>
+                      </div>
+                      <div class="trending-child">
+                        <img src="icons/truck.png" alt="privacy" class="fast" />
+                        <div class="fast-text">
+                          <p class="fast-head">Hi there,</p>
+                          <p>Yinkusadel (@sadella)</p>
+                        </div>
+                      </div>
+                      <div class="trending-child">
+                        <img src="icons/fast.png" alt="privacy" class="fast" />
+                        <div class="fast-text">
+                          <p class="fast-head">Hi there,</p>
+                          <p>Yinkusadel (@sadella)</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
   </body>
 </html>
